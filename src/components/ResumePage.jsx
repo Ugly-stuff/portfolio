@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-
+import resume from "../assets/Souvik_Pramanik_CV.pdf"
 function ResumePage() {
-  const resumePath = import.meta.env.VITE_RESUME_PATH;
+  const resumePath = resume;
 
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pt-20">

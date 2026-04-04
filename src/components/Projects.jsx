@@ -182,7 +182,6 @@ function Projects() {
             </svg>
           </a>
         </div>
-
       </div>
     </section>
   );
