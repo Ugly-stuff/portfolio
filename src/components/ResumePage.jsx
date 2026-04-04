@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import resume from "../assets/resume.pdf";
 
 function ResumePage() {
-  const resumePath = "/resume.pdf";
+  const resumePath = resume;
 
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pt-20">
