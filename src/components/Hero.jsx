@@ -21,13 +21,13 @@ function Hero() {
   return (
     <section 
       id="profile"
-      className="w-full min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 relative overflow-hidden"
+      className="w-full min-h-screen flex items-center justify-center bg-linear-to-br from-slate-950 via-indigo-950 to-slate-900 relative overflow-hidden"
     >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse" style={{animationDelay: '700ms'}}></div>
-        <div className="absolute top-1/2 left-1/2 w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-to-tr from-indigo-700/10 via-blue-400/10 to-purple-500/10 rounded-full blur-2xl" style={{animation: 'spin 18s linear infinite'}}></div>
+        <div className="absolute top-1/2 left-1/2 w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 bg-linear-to-tr from-indigo-700/10 via-blue-400/10 to-purple-500/10 rounded-full blur-2xl" style={{animation: 'spin 18s linear infinite'}}></div>
       </div>
 
       <style>{`
@@ -68,9 +68,7 @@ function Hero() {
         }
       `}</style>
 
-      {/* Content - CENTERED */}
       <div className="w-full max-w-4xl mx-auto px-6 text-center relative z-10">
-        {/* Profile Image */}
         <div className="flex justify-center mb-8 hero-image">
           <div className="relative w-36 h-36 group">
             <div 
@@ -122,13 +120,13 @@ function Hero() {
         </div>
 
         {/* Description */}
-        <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed tracking-wide hero-description">
+        <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed tracking-wide text-center hero-description">
   Crafting scalable, modern web applications with{" "}
   <span className="text-blue-400 font-semibold">React</span>,{" "}
   <span className="text-green-400 font-semibold">Node.js</span>,{" "}
-  <span className="text-yellow-400 font-semibold">Tailwind CSS</span>,{" "}
+  <span className="text-purple-400 font-semibold">Figma</span>,{" "}
   <span className="text-cyan-400 font-semibold">TypeScript</span>,{" "}
-  and <span className="text-purple-400 font-semibold">Figma</span>.
+  and <span className="text-yellow-400 font-semibold">Tailwind CSS</span>.
 </p>
 
         {/* Buttons */}

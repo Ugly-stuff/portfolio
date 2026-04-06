@@ -10,7 +10,7 @@ const sections = [
 const content = {
  introduction: {
   title: "Introduction",
-  body: "I'm a Computer Science graduate and aspiring Full Stack Developer with hands-on experience in building real world projects using React and Node.js. I focus on writing clean, understandable code and continuously improving my problem solving skills. Currently strengthening my backend development and system design fundamentals while actively working on personal projects."
+  body: "I'm a Computer Science graduate and aspiring Full Stack Developer with hands on experience in building real world projects using React and Node.js. I focus on writing clean, understandable code and continuously improving my problem solving skills. Currently strengthening my backend development and system design fundamentals while actively working on personal projects."
 },
 
 qualification: {
@@ -60,7 +60,7 @@ function ResumeSection() {
         }
       `}</style>
 
-      {/* Wrapper — forces centering with inline style as backup */}
+      {/* Wrapper  forces centering with inline style as backup */}
       <div
         style={{ maxWidth: "72rem", margin: "0 auto", padding: "0 1.5rem" }}
         className="relative z-10"

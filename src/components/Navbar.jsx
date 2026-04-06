@@ -49,8 +49,8 @@ function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled
-        ? "bg-gradient-to-r from-slate-950/95 via-indigo-950/95 to-slate-950/95 backdrop-blur-xl border-b border-slate-800/50"
-        : "bg-gradient-to-r from-slate-950/70 via-indigo-950/70 to-slate-950/70 backdrop-blur-lg"
+        ? "bg-linear-to-r from-slate-950/95 via-indigo-950/95 to-slate-950/95 backdrop-blur-xl border-b border-slate-800/50"
+        : "bg-linear-to-r from-slate-950/70 via-indigo-950/70 to-slate-950/70 backdrop-blur-lg"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
